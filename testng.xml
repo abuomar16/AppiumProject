@@ -2,8 +2,10 @@
 <suite name="MyApp Test Suite" parallel="false">
     <test name="Login and SignIn Tests">
         <classes>
-            <class name="tests.LoginTest"/>
-            <class name="tests.SignInTest"/>
+            <class name="tests.AddationTest"/>
+            <class name="tests.SubtractionTest"/>
+            <class name="tests.MultiplicationTest"/>
+            <class name="tests.DivisionTest"/>
         </classes>
     </test>
 </suite>
