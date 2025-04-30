@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel Calculator Test Suite" parallel="tests" thread-count="2">
+
+    <test name="Addition Test on Device 1">
+        <parameter name="platformName" value="android"/>
+        <parameter name="deviceName" value="OPPO CPH2185"/>
+        <parameter name="udid" value="HASGDABEW8YD9TRG"/>
+        <parameter name="port" value="4723"/>
+        <parameter name="systemPort" value="8201"/>
+        <classes>
+            <class name="tests.AdditionTest"/>
+        </classes>
+    </test>
+
+    <test name="Subtraction Test on Device 2">
+        <parameter name="platformName" value="android"/>
+        <parameter name="deviceName" value="OPPO CPH2235"/>
+        <parameter name="udid" value="3842acc9"/>
+        <parameter name="port" value="4724"/>
+        <parameter name="systemPort" value="8202"/>
+        <classes>
+            <class name="tests.SubtractionTest"/>
+        </classes>
+    </test>
+
+</suite>

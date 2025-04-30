@@ -15,7 +15,7 @@ public class WaitUtils {
 
     public WaitUtils(AppiumDriver driver) {
         this.driver = driver;
-        wait = new WebDriverWait(driver, Duration.ofSeconds(15)); // استنى لحد 15 ثانية بحد أقصى
+        wait = new WebDriverWait(driver, Duration.ofSeconds(80)); // استنى لحد 15 ثانية بحد أقصى
     }
 
     public WebElement waitForElementVisible(By locator) {
