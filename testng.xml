@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="MyApp Test Suite" parallel="false">
-    <test name="Login and SignIn Tests">
+    <test name="Calculator App ">
         <classes>
             <class name="tests.AddationTest"/>
             <class name="tests.SubtractionTest"/>
@@ -9,6 +9,7 @@
         </classes>
     </test>
 </suite>
+
 
 
 

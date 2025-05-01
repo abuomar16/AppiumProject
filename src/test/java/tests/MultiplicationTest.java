@@ -1,12 +1,19 @@
 package tests;
 
 import base.BaseTest;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import screens.MultiplicationScreen;
 
 public class MultiplicationTest extends BaseTest {
 
+
+    @Epic("Multiplication Test  Module")
+    @Feature("Multiply  2 number ")
+    @Story(" number 1 is 3  , number 2 is 4 ")
     @Test
     public void testMultiplication() {
         MultiplicationScreen multiplicationPage = new MultiplicationScreen(driver);

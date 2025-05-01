@@ -1,12 +1,18 @@
 package tests;
 
 import base.BaseTest;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import screens.DivisionScreen;
 
 public class DivisionTest extends BaseTest {
 
+    @Epic("Division Test  Module")
+    @Feature("Divide 2 number ")
+    @Story(" number 1 is 6  , number 2 is ")
     @Test
     public void testDivision() {
         DivisionScreen divisionPage = new DivisionScreen(driver);

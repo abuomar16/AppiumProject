@@ -1,0 +1,4 @@
+Save allure folder   :   allure generate allure-results --clean -o allure-report
+open Report :  allure serve allure-results
+
+
